@@ -1,0 +1,16 @@
+{
+  "name": "MIKEY-PRIME-999",
+  "description": "WhatsApp MD bot — MIKEY PRIME 999 (aucune base de données externe requise)",
+  "keywords": ["nodejs", "whatsapp bot", "multi device", "baileys", "mikey prime"],
+  "success_url": "/",
+  "stack": "container",
+  "env": {
+    "OWNER_NAME": { "description": "Nom du propriétaire", "value": "Mikey prime", "required": false },
+    "OWNER_NUMBER": { "description": "Numéro du propriétaire au format international, sans +", "value": "242061691195", "required": false },
+    "SESSION_ID": { "description": "Session WhatsApp (obtenue via le site de pairing)", "required": false },
+    "PREFIX": { "description": "Préfixe des commandes", "value": "." },
+    "BOT_NAME": { "description": "Nom du bot", "value": "≛⃝꥓𝑴𝑰𝑲𝑬𝒀 ᵖʳᶦᵐᵉ𓆩ㅤ ⁹⁹⁹" },
+    "OPENAI_API_KEY": { "description": "Clé API OpenAI (optionnelle)", "required": false },
+    "WORKTYPE": { "description": "public ou private", "value": "public" }
+  }
+}
